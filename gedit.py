@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Wed Aug 31 13:29:43 2016
+Created on Wed Aug 31 2016
 
 @author: thor
 """
