@@ -7,13 +7,15 @@ gedit is a good text editor for ubuntu.
 this an example to edit content in gedit with it's python console.
 in python console, there is a 'window' parameter. with code:
 
-doc = window.get_active_document()
-start, end = doc.get_bounds()
-Text = doc.get_text( start, end, True )
+>>> doc = window.get_active_document()
+
+>>> start, end = doc.get_bounds()
+
+>>> Text = doc.get_text( start, end, True )
 
 you can get the content of the active file. and with:
 
-doc.set_text( Text )
+>>> doc.set_text( Text )
 
 you can update the content.
 
