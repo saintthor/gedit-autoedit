@@ -19,6 +19,7 @@ you can get the content of the active file. and with:
 
 you can update the content.
 
+NOTE: all codes in gedit python console are for python 3.
 
 ## Start
 copy the gedit.py to one of sys.path then may import it from python console.
