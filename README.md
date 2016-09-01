@@ -27,8 +27,10 @@ copy the gedit.py to one of sys.path then may import it from python console.
 you may change the content with the AutoReplace function. type codes in python console:
 
 >>> from gedit import AutoReplace as r
+
 >>> def myReplace( oldText ):
 	return 'new text.'
+	
 >>> r( window, myReplace )
 
 the content will be changed.
@@ -40,6 +42,7 @@ the AutoFormat function is for chinese user.
 AutoFormat 用于将半角标点转为全角。如果 JoinLines = True，将删除所有单个的 \n。因为我处理的文档经常有多余的硬回车，删除单个的，保留连续多个的 \n，才能转为正常格式。用法：
 
 >>> from gedit import AutoFormat as f
+
 >>> f( window )
 
 ## AutoNote
